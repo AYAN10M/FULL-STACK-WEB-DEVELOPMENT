@@ -1,0 +1,40 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(16, 129, 195);
+}
+
+header {
+    padding: 5%;
+}
+
+#makaut_logo {
+    width: 25%;
+    float: left;
+
+}
+
+#footer_paragraph
+{
+    font-family:'Times New Roman', Times, serif;
+}
+
+#header_hr1
+{
+    border: 3px solid  orange;
+    display: inline;
+}
+
+#header_hr2
+{
+    border: 3px solid rgb(16, 129, 195);
+    display: inline;
+}

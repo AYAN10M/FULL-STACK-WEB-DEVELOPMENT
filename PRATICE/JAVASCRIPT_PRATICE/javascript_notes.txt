@@ -1,0 +1,10 @@
+** alert("Hello World");   : a pop up box that displays the message
+** window.alert("Hello World!");   : a pop up box that displays the message
+
+diffrence b/w alert and window.alert is that alert is a global function and window.alert is a method of window object
+
+**console.log("Hello World");   : a message is displayed in the console
+ [It is used for debugging purposes]
+
+**typeof "Hello World";   : returns the type of the variable
+**prompt("What is your name?");   : a pop up box that asks for input
