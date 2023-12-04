@@ -1,0 +1,44 @@
+body {
+    color: black;
+    background-color: black;
+}
+
+hr {
+    width: 75%;
+}
+
+#top-container {
+    margin: 150px;
+    padding: 5%;
+    border: 5px solid white;
+    background-color: white;
+}
+
+#sub-container {
+    display: grid;
+    align-content: center;
+    border: 5px solid black;
+    grid-template-columns: auto auto;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 225%;
+    text-align: center;
+}
+
+#left-sub-container {
+    background-image: url("img/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    font-size: 500%;
+}
+
+#right-sub-container {
+    background-image: url("img/img2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 5%;
+}
