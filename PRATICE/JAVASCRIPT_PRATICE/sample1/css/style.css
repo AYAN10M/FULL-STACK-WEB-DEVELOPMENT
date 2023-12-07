@@ -5,6 +5,8 @@ body
     text-align: center;
     padding: 20px;
     font-size: 32px;
+    background-image: url("/img/878404.jpg");
+    background-size:cover;
 }
 
 button

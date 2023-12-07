@@ -23,6 +23,12 @@ function increment() {
 
 function save()
 {
-    console.log(count);
+    let temp = document.getElementById("count_people").innerText;
+    let prev_log = document.getElementById("logs").innerText;
+    let result = prev_log + " + " + temp; 
+    document.getElementById("logs").innerText = result;
+    count = 0;
+    document.getElementById("count_people").innerText = 0;
+    
 }
 
